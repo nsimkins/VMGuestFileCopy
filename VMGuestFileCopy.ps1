@@ -12,7 +12,7 @@
     stored per user in %APPDATA%\VMGuestFileCopy\favourites.json.
 
 .NOTES
-    Version : 0.13
+    Version : 0.14
     Increase by 0.01 for every change (0.1 -> 0.11 -> 0.12 ...) and keep
     $script:AppVersion below in step with it.
 #>
@@ -20,7 +20,7 @@
 [CmdletBinding()]
 param()
 
-$script:AppVersion = '0.13'
+$script:AppVersion = '0.14'
 
 # WPF needs an STA thread. Relaunch if we were started from an MTA host.
 if ([Threading.Thread]::CurrentThread.GetApartmentState() -ne 'STA') {

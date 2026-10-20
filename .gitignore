@@ -1,4 +1,4 @@
-# Portable PowerCLI downloaded by Get-PowerCLIPortable.ps1 - large binaries, fetch locally instead
+# Optional portable PowerCLI (see README) - large binaries, fetch locally instead
 Modules/
 
 # Windows clutter
