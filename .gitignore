@@ -1,0 +1,6 @@
+# Portable PowerCLI downloaded by Get-PowerCLIPortable.ps1 - large binaries, fetch locally instead
+Modules/
+
+# Windows clutter
+Thumbs.db
+desktop.ini
