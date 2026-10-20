@@ -77,3 +77,5 @@ The version is recorded in two places at the top of `VMGuestFileCopy.ps1`:
 | 0.12 | The vCenter/ESXi password field is cleared as soon as the connection succeeds. If the connection fails, the password is kept so you can retry. |
 | 0.11 | The selected VM stays highlighted when you click into another field. It also stays selected when you change the filter or refresh the VM list, as long as it's still in the list. |
 | 0.1 | First versioned release. Copies files to and from guests and keeps a favourites list (server and certificate setting only). |
+
+<sub>Developed with AI assistance</sub>
