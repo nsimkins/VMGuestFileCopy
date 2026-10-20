@@ -70,8 +70,6 @@ The version is recorded in two places at the top of `VMGuestFileCopy.ps1`:
 - the **`.NOTES`** section of the header comment
 - **`$script:AppVersion`**, which is what the window shows in its title, in the bottom-right corner and as the first line of the log
 
-Every change increases the version by 0.01: 0.1, 0.11, 0.12 and so on. When you change the version, update both places in the script, the line at the top of this README, and the table below.
-
 | Version | Changes |
 |---|---|
 | 0.14 | Removed `Get-PowerCLIPortable.ps1`. The README now explains how to install PowerCLI or put a copy in `Modules`. |
